@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link{
+  margin-left: 40px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+}
+
+footer a:hover{
+  color: #387ED1;
+}
+
+.universe-logo img{
+  height: 55px;
+  max-width: 100%;
+  /* border-style: none; */
+}
+.universe-logo span{
+    line-height: 25px;
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    color: #9b9b9b;
+}
+
+/* #supportHero{
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+#supportHero a{
+  color: white;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+#supportHero input{
+  padding: 20px 50px;
+  width: 100%;
+  font-style: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.supporSubHeading{
+  margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+} */
+
+#supportHero {
+  background-color: rgb(56, 126, 209);
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#supportWrapper {
+  margin: 0 180px;
+  padding-bottom: 20px;
+}
+
+.track-link {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 2px;
+  font-weight: 400;
+}
+
+#supportContent {
+  margin: 0 180px;
+  padding-top: 20px;
+}
+
+.supportSubHeading {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.search-input {
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  height: 55px;
+  margin: auto;
+  margin-bottom: 15px;
+  padding: 12px;
+  background: #fff;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 20px;
+  top: 45%;
+  transform: translateY(-50%);
+  color: grey;
+  font-size: 22px;
+}
+
+.quick-links a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 2px;
+}
+
+
+#rightContent li {
+  padding-bottom: 2px;
+  margin-left: 30px;
+}
+
+#rightContent a{
+  color: white;
+}
